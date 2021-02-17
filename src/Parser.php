@@ -367,7 +367,7 @@ class Parser implements ParserInterface
                          * This functionality is DEPRECATED, and will not occur if more than one
                          * channel mode is being set. Use $params['params'] instead. */
                         if (isset($params['mode']) && strlen($params['mode']) == 2 && isset($params['params'])) {
-                            switch ($params['mode']{1}) {
+                            switch ($params['mode'][1]) {
                                 case 'l':
                                     $params['limit'] = $params['params'];
                                     break;
