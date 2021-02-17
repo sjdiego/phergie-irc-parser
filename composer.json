@@ -11,10 +11,10 @@
         "source": "https://github.com/phergie/phergie-irc-parser"
     },
     "require": {
-        "php": "^7.0 || ^5.6"
+        "php": "^8.0"
     },
     "require-dev": {
-        "phergie/phergie-irc-bot-react-development": "~1.0.0"
+        "phergie/phergie-irc-bot-react-development": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -26,10 +26,6 @@
             "Phergie\\Irc\\Tests\\": "tests"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/phergie/phergie-irc-parser"
-        }
-    ]
+    "minimum-stability": "dev",
+    "prefer-stable": false
 }
